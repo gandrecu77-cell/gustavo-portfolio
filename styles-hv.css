@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+    /* Smooth scroll for better UX when navigating */
+    scroll-behavior: smooth; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: sticky; /* Sticky nav bar */
+    top: 0;
+}
+
+.name-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Task 8: Home Icon styling */
+.home-icon {
+    width: 20px; 
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Task 1: Name styling */
+.client-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+	color: #FFFFFF;
+	 text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+    /* Add specific styling here if required (color, etc) */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+/* Task 2: Navigation hover effect (font/text style change and underline) */
+nav ul li a:hover {
+    color: #4CAF50; /* Change color on hover */
+    text-decoration: underline; /* Underline on hover */
+    /* If specific font family change is needed, add it here */
+}
+
+section {
+    padding: 60px 20px;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Task 3: Profile image styling */
+.profile-img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Task 4: Skills format */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill img {
+    width: 30px;
+    height: auto;
+}
+
+/* Task 5: Projects format */
+.project {
+    border-left: 5px solid #4CAF50;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+}
+
+/* Task 6, 7, 9: Recommendations format and form styling */
+.recommendation {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #fafafa;
+}
+
+#recommendation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#recommendation-form textarea, #recommendation-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#recommendation-form button {
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
