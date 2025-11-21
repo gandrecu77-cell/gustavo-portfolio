@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio -Gustavo Cubillos</title>
+    <link rel="stylesheet" href="styles-hv.css">
+    <!-- Assuming you have a Home icon file named 'home-icon.png' for Task 8 -->
+    <!-- Add font awesome link here for icons if needed later -->
+</head>
+<body>
+
+    <!-- Task 1: Styled Name & Task 2: Navigation Bar -->
+    <header>
+        <div class="name-container">
+            <!-- Task 8: Home Icon (assuming an image file) -->
+            <img src="home-icon.png" alt="Home Icon" class="home-icon">
+            <span class="client-name">Gustavo Cubillos</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">Acerca De</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#recommendations">Recommendaciones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Task 3: About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="profile-image.png" alt="Profile Image" class="profile-img">
+            <h3>Gustavo Cubillos</h3>
+            <p>Un recién graduado con pasión por el desarrollo web, que busca una colocación adecuada en la industria tecnológica.</p>
+        </section>
+
+        <!-- Task 4: Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <!-- Example Skill format -->
+                <div class="skill">
+                    <img src="html-logo.png" alt="HTML Logo">
+                    <span>HTML5</span>
+                </div>
+                <div class="skill">
+                    <img src="css-logo.png" alt="CSS Logo">
+                    <span>CSS</span>
+                </div>
+                <div class="skill">
+                    <img src="js-logo.png" alt="JS Logo">
+                    <span>JavaScript</span>
+                </div>
+                <!-- Add more skills with logos/text -->
+            </div>
+        </section>
+
+        <!-- Task 5: Projects Section (Ensure 3 unique projects different from a sample) -->
+        <section id="projects">
+            <h2>Proyectos</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <h3>Proyecto 1: Sitio de  E-commerce</h3>
+                    <p>Desarrollé un front-end (interfaz de usuario) para un sitio de comercio electrónico simulado utilizando HTML, CSS y funcionalidad básica de JavaScript.</p>
+                </div>
+               <div class="project">
+                    <h3>Proyecto 2: Panel Meteorológico</h3>
+                    <p>Creé una aplicación de panel meteorológico utilizando una API del clima para obtener y mostrar datos en tiempo real.</p>
+                </div>
+                <div class="project">
+                    <h3>Proyecto 3: Aplicación de Lista de Tareas</h3>
+                    <p>Construí una aplicación funcional de lista de tareas que utiliza el almacenamiento local para guardar las tareas.</p>
+                </div>
+            </div>
+        </section>
+
+       <!-- Tarea 6, 7, 9: Sección de Recomendaciones -->
+        <section id="recommendations">
+            <h2>Recomendaciones</h2>
+            <div class="recommendations-container" id="recommendations-list">
+                <!-- Tarea 6: Asegúrate de que haya 3 recomendaciones únicas diferentes de una muestra -->
+                <div class="recommendation">
+                    <p>"Gustavo Cubillos aprende rápido y es muy dedicado. ¡Altamente recomendado para cualquier puesto de nivel inicial!"</p>
+                    <span>— Maria Helena Forero, CTO de Nueva Eps</span>
+                </div>
+                <div class="recommendation">
+                    <p>"Excelente comprensión de los fundamentos del front-end. Un activo valioso para cualquier equipo."</p>
+                    <span>— Victor Vivas, Gerente de Ingeniería</span>
+                </div>
+                <div class="recommendation">
+                    <p>"Proactivo, colaborador y orientado a resultados. Un placer trabajar con él/ella."</p>
+                    <span>— Christian Ovalle, Desarrollador Líder</span>
+                </div>
+            </div>
+            
+            <!-- Tarea 7 y 9: Formulario para nuevas recomendaciones -->
+            <h3>Dejar una Recomendación</h3>
+            <form id="recommendation-form">
+                <textarea id="recommendation-text" placeholder="Escribe tu recomendación aquí..."></textarea>
+                <input type="text" id="recommendation-person" placeholder="Tu Nombre, Cargo, Empresa">
+                <button type="submit">Enviar Recomendación</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gustavo Cubillos</p>
+    </footer>
+
+    <script src="scripthv.js"></script>
+</body>
+</html>
